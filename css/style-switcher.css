@@ -44,6 +44,8 @@
     top: 55px;
 
 }
+
+
 .style-switcher h4{
     margin: 0 0 10px;
     color: var(--text-black-700);
@@ -75,8 +77,8 @@
     background:#f021b2 ;
 }
 .style-switcher .color-4{
-    background:#37b182 ;
+    background:#40FF00;
 }
 .style-switcher .color-5{
-    background:#fa5b0f ;
+    background:#F7CD2E ;
 }
