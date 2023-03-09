@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/Skiny.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style-switcher.css">
+    <link rel="stylesheet" href="./css/Socialmediaswitcher.css">
+    <link rel="icon" type="./img/x-icon" href="./img/Portfolio.png">
     <!--style switcher-->
     <link rel="stylesheet" href="./css/color1.css" class="alternate-style" title="color-1" disabled>
     <link rel="stylesheet" href="./css/color2.css" class="alternate-style" title="color-2" disabled>
@@ -33,10 +35,10 @@
             -->
            <ul class="nav">
                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-               <li><a href="#about" class=""><i class="fa fa-user"></i>About</a></li>
-               <li><a href="#service"><i class="fa fa-list"></i>Service</a></li>
-               <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-               <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+               <li><a href="#about" class=""> <i class="fa fa-user"></i>About</a></li>
+               <li><a href="#service" class=""><i class="fa fa-list"></i>Service</a></li>
+               <li><a href="#portfolio" class=""><i class="fa fa-briefcase"></i>Portfolio</a></li>
+               <li><a href="#contact" class=""><i class="fa fa-comments"></i>Contact</a></li>
            </ul>
 
         </div>
@@ -49,13 +51,20 @@
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello,my name is <span class="name">Hrithik Das</span></h3>
-                            <h3 class="my-profession">I'm a <span class="typing">web designer</span></h3>
-                            <p>I'm a web Designer with extension experience for over 10 years. My expertise is to create and website design,graphics design,problem solving and many more....</p>
+                            <h3 class="my-profession">I'm a <span class="typing"></span></h3>
+                            <p>I'm a web Designer with extension experience for over 2 years. My expertise is to create and Website ,Android App , I also have Problem solving skills , I can edit videos,i am a Gamer and many more....</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
+                        
                         <div class="home-img padd-15">
-                            <img src="./img/man2.jpg.jpg" alt="">
+                            <img id="splash" src="./img/splash.png" alt="">
+                            
+                            <img id="avater" src="./img/menavater.png" alt="">
+                            
+                            
+                            
                         </div>
+                        
                     </div>
                 </div>
             </section>
@@ -72,8 +81,8 @@
                         <div class="about-content padd-15">
                            <div class="row">
                                <div class="about-text">
-                                   <h3>I'm Hrithik Das <span>Web Developer</span></h3>
-                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque dignissimos ab deleniti voluptas officia similique tempore libero quidem necessitatibus dolorum pariatur quibusdam doloremque, alias aperiam! Sapiente odio fugit eum dicta similique quae dolore nobis adipisci! Porro ad assumenda nihil aliquam, illum possimus repellat harum beatae? Minus veniam odio temporibus natus soluta numquam a debitis.</p>
+                                   <h3>I'm  <span>Hrithik Das </span>, An Engineer</h3>
+                                   <p>“Science can amuse and fascinate us all, but it is engineering that changes the world.” “The engineer has been, and is, a maker of history.” “Scientists study the world as it is; engineers create the world that has never been.” “The way to succeed is to double your failure rate.”</p>
                                </div>
                            </div>
                         </div>
@@ -108,46 +117,141 @@
                            </div>
                            <div class="row padd-15">
                                <div class="buttons">
-                                   <a href="#" class="btn">Download CV</a>
+                                   <a href="https://drive.google.com/file/d/19aP3fPKDgQ6B3zsf5U5eosr2hnMcrwyK/view?usp=share_link" class="btn">Download CV</a>
                                    <a href="#contact" class="btn hire-me">Hire Me</a>
                                </div>
                            </div>
                         </div>
+                        <!--<div class="skills-bar">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                </div>
+                                <div  class="progress-line html"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="progress-line css"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>BOOTSTRAP</span>
+                                </div>
+                                <div class="progress-line bootstrap"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>JS</span>
+                                </div>
+                                <div class="progress-line js"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>ANDROID DEVELOPEMENT</span>
+                                </div>
+                                <div class="progress-line ad"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>JAVA</span>
+                                </div>
+                                <div class="progress-line java"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>C++</span>
+                                </div>
+                                <div class="progress-line cpp"><span></span></div>
+                            </div>
+                        </div>-->
+                        <!--<div class="wrapper">
+                            <div class="shape-1"></div>
+                            <div class="shape-2"></div>
+                            <div class="containernew">
+                                <h2>Animated Skills </h2>
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>HTML</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="html-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>CSS</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="css-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>Javascript</span>
+                                        <span>72%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="js-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>jQuery</span>
+                                        <span>68%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="jQuery-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                    
                         <div class="skills padd-15">
                             <div class="row">
                                 <div class="skill-item">
                                     <h5>HTML</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
+                                        <div class="progress-in" id="html" ></div>
+                                        <div class="skill-percent" id="html-text">95%</div>
                                     </div>
                                 </div>
                                 <div class="skill-item">
                                     <h5>CSS</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
+                                        <div class="progress-in"  id="css"></div>
+                                        <div class="skill-percent" id="css-text">90%</div>
                                     </div>
                                 </div>
                                 <div class="skill-item">
                                     <h5>JS</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item">
-                                    <h5>PHP</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
+                                        <div class="progress-in" id="js"></div>
+                                        <div class="skill-percent" id="js-text">70%</div>
                                     </div>
                                 </div>
                                 <div class="skill-item">
                                     <h5>BOOTSTRAP</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
+                                        <div class="progress-in" id="bootstrap"></div>
+                                        <div class="skill-percent" id="bt-text">94%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h5>ANDROID DEVELOPEMENT </h5>
+                                    <div class="progress">
+                                        <div class="progress-in" id="ad"></div>
+                                        <div class="skill-percent" id="ad-text">90%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h5>JAVA</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" id="java"></div>
+                                        <div class="skill-percent" id="java-text">80%</div>
                                     </div>
                                 </div>
                             </div>
@@ -163,19 +267,19 @@
                                        <div class="timeline-item">
                                            <div class="circle-dot">
                                              <h3 class="timeline-date">
-                                                <i class="fa fa-calendar"></i>2020  -  2024
+                                                <i class="fa fa-calendar"></i>2005  -  2018
                                              </h3>
-                                             <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                             <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                             <h4 class="timeline-tittle">Schooling</h4>
+                                             <p class="timeline-text">I started my Schooling from 2005 in Saraswati Sishu Vidya Mandir Then i moved to S.N.M.V.M Rajnagar . I passed my class 10th with 89% of mark in JAC Board.</p>
                                            </div>
                                        </div>
                                        <div class="timeline-item">
                                         <div class="circle-dot">
                                           <h3 class="timeline-date">
-                                             <i class="fa fa-calendar"></i>2020  -  2024
+                                             <i class="fa fa-calendar"></i>2018  -  2020
                                           </h3>
-                                          <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                          <h4 class="timeline-tittle">Higher Secondary Education In ISC</h4>
+                                          <p class="timeline-text">After completing my Schooling i went to KCC Jamshedpur for higher education in ISC . I passed My class !2th with 79% of Mark in JAC Board.</p>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
@@ -184,7 +288,7 @@
                                              <i class="fa fa-calendar"></i>2020  -  2024
                                           </h3>
                                           <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                          <p class="timeline-text"> Then i decided to pursue Engineering In CSE stream and i joined MAKAUT university to complete my B.TECH in computer science and Technology . I score 9.2 Sgpa in current semester</p>
                                         </div>
                                     </div>
 
@@ -204,8 +308,8 @@
                                              <h3 class="timeline-date">
                                                 <i class="fa fa-calendar"></i>2020  -  2024
                                              </h3>
-                                             <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                             <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                             <h4 class="timeline-tittle">Website Development</h4>
+                                             <p class="timeline-text">I Learn the basic fundamental of web development i,e Html , Css and Javascript . I develop many websites some are dynamic and some are statics.
                                            </div>
                                        </div>
                                        <div class="timeline-item">
@@ -213,8 +317,8 @@
                                           <h3 class="timeline-date">
                                              <i class="fa fa-calendar"></i>2020  -  2024
                                           </h3>
-                                          <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                          <h4 class="timeline-tittle">Android Development</h4>
+                                          <p class="timeline-text">My interest in Android development arrise when i am in 3rd year . In 3rd year i learned Java which is very helpful for me to develop android app and i develop lots of android app..</p>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
@@ -222,8 +326,8 @@
                                           <h3 class="timeline-date">
                                              <i class="fa fa-calendar"></i>2020  -  2024
                                           </h3>
-                                          <h4 class="timeline-tittle">Bechalor In Computer Sceince</h4>
-                                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos rerum ut necessitatibus! Vitae quia, cupiditate tempore officiis qui obcaecati inventore modi iure doloribus ratione possimus.</p>
+                                          <h4 class="timeline-tittle">DSA-Problem Solving</h4>
+                                          <p class="timeline-text">I started Learning some basic languages like c++ and java by which i started solving DSA problems .Which helps to increase my problem solving skills and which give me a boost to solve realtime problems.</p>
                                         </div>
                                     </div>
 
@@ -252,8 +356,8 @@
                                     <div class="icon">
                                         <i class="fa fa-mobile-alt"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4>Android App </h4>
+                                    <p>If you want to build android app,contact me.</p>
                                 </div>
                             </div>
                             <div class="service-item padd-15">
@@ -261,8 +365,8 @@
                                     <div class="icon">
                                         <i class="fa fa-laptop-code"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4>Website development</h4>
+                                    <p>I will help to build any website ..</p>
                                 </div>
                             </div>
                             <div class="service-item padd-15">
@@ -270,8 +374,8 @@
                                     <div class="icon">
                                         <i class="fa fa-palette"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4>Graphics Design</h4>
+                                    <p>I can create Graphics and can edit images</p>
                                 </div>
                             </div>
 
@@ -280,28 +384,28 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-shield-halved"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4> Security</h4>
+                                    <p>I will provide all security which will be necessary </p>
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-bullhorn"></i>
+                                        <i class="fa fa-video"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4>Video Editor</h4>
+                                    <p>Need Video Editor?  You can contact me through email , linkedin and Instagram</p>
                                 </div>
                             </div>
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-mobile-alt"></i>
+                                        <i class="fa fa-code"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus enim doloremque incidunt.</p>
+                                    <h4>Programming Lanuage</h4>
+                                    <p>Soon i will upload some programming language tutorials.</p>
                                 </div>
                             </div>
 
@@ -330,7 +434,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project-1.jpg" alt="">
+                                    <img src="./img/nikelandingpage.jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">Nike Landing Page</h2>
                                 </div>
                             </div>
 
@@ -339,7 +446,10 @@
                          <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project2.jpg" alt="">
+                                    <img src="./img/citytour.jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">City Guide App</h2>
                                 </div>
                             </div>
 
@@ -348,7 +458,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project3.jpg" alt="">
+                                    <img src="./img/texteditor.jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">Text Editor Website</h2>
                                 </div>
                             </div>
                             
@@ -358,7 +471,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project4.png" alt="">
+                                    <img src="./img/gamestore.jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">Game Store</h2>
                                 </div>
                             </div>
                          
@@ -367,7 +483,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project5.jpg" alt="">
+                                    <img src="./img/Fakenews (2).jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">Fake News Detection App</h2>
                                 </div>
                             </div>
 
@@ -375,7 +494,10 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadoww-dark">
                                 <div class="portfolio-img">
-                                    <img src="./img/project6.jpg" alt="">
+                                    <img src="./img/cryptotracker.jpg" alt="">
+                                </div>
+                                <div class="Project-name">
+                                    <h2 class="name1">Crypto Currency Tracker App</h2>
                                 </div>
                             </div>
 
@@ -398,27 +520,27 @@
                         <div class="row">
                             <div class="contact-item-info padd-15">
                                <div class="icon"><i class="fa fa-phone"></i></div>
-                                <h4>Office</h4>
-                                <p>Jamshedpur</p>
+                                <h4 class="heading1">Phone No.</h4>
+                                <p class="head-title">6969172914</p>
     
                             </div>
                             <div class="contact-item-info padd-15">
                                 <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                                 <h4>Office</h4>
-                                 <p>Jamshedpur</p>
+                                 <h4 class="heading1">Location</h4>
+                                 <p class="head-title">Sakchi</p>
      
                              </div>
                              <div class="contact-item-info padd-15">
                                 <div class="icon"><i class="fa fa-envelope"></i></div>
-                                 <h4>Office</h4>
-                                 <p>Jamshedpur</p>
+                                 <h4 class="heading1">mail</h4>
+                                 <p class="head-title">hrithikdas600@gmail.com</p>
      
                              </div>
                             
                              <div class="contact-item-info padd-15">
-                                <div class="icon"><i class="fa fa-globe-europe"></i></div>
-                                 <h4>Office</h4>
-                                 <p>Jamshedpur</p>
+                                <div class="icon"><i class="fa fa-earth-americas"></i></div>
+                                 <h4 class="heading1">Office</h4>
+                                 <p class="head-title">Jamshedpur</p>
      
                              </div>
                         </div>
@@ -428,9 +550,9 @@
                     <h3 class="contact-tittle padd-15">SEND ME AN EMAIL</h3>
                     <h4 class="contact-sub-tittle padd-15">I'M VERY EXPOSIVE TO MESSEGE</h4>
                     <div class="row">
-                        <div class="contact-form padd-15"> 
+                        <form action="mailto:hrithikdas600@gmail.com " method="post" enctype="text/plain" class="contact-form padd-15"> 
                             <div class="row">
-                                <div class="form-item col-6 padd-15">
+                                <div  class="form-item col-6 padd-15">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Name">
                                     </div>
@@ -465,7 +587,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
 
@@ -568,13 +690,26 @@
             <span class="color-5" onclick="setActiveStyle('color-5')"></span>
 
         </div>
-           
-
     </div>
+    <div class="topnav" id="myTopnav">
+        <i class="fa-solid fa-paperclip" id="link" onclick="myFunction()"> </i>
+
+        <a href="https://www.facebook.com/hrithik.das.1610?mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/Hrithik85199095?s=08"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/hrithik-das-b9b56b1ba"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/hrithikcoder"><i class="fa-brands fa-github"></i></a>
+        
+    </div>
+    <div class="new">
+        <i class="fa-solid fa-paperclip" id="linknew" onclick="myFunction()"> </i>
+    </div>
+    
+   
     <!---Style scriptStart-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="./js/Hrithik.js"></script>
     <script src="./js/style-switcher.js"></script>
+    <script src="./js/socialmedia-switer.js"></script>
 
 
     <!--style script end-->
