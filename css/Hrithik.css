@@ -1398,6 +1398,7 @@ h3.my-profession{
     text-align: center;
     position: relative;
 }
+
 .home-img::after{
     content: '';
     position: absolute;
@@ -1406,7 +1407,7 @@ h3.my-profession{
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 20px;
-    bottom: -40px;
+    bottom: 4px;
     
 }
 .home-img::before{
@@ -1421,27 +1422,70 @@ h3.my-profession{
     
 }
 img#avater {
+    width: 200px;
     position: absolute;
-    top: -20px;
+    top: 80px;
+    height: 200px;
 }
 img#splash {
+    height: 400px;
+    width: 400px;
     right: -10px;
     position: relative;
+}
+img#element {
+    left: 50px;
+    position: absolute;
+    width: 150px;
+    right: 10px;
+    height: 150px;
+    animation: animateAstro 5s ease-in infinite;
+    transform: rotate(90deg);
+    bottom: 20px;
+}
+img#elementone {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    animation: animatelement 5s linear infinite
+}
+img#elementfour {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    animation: animatelement 5s linear infinite ;
+    
+}
+@keyframes animatelement {
+    50%{
+        left: 10px;
+    }
+    
 }
 .home .home-img img{
     
     position: absolute;
     width: calc(130% - 8opx);
-    right: 50px;
+    right: 100px;
     height:300px;
+   
     transform: rotateY(180deg);
-    animation: animateUser 4s linear infinite;
+    animation: animateUser 5s linear infinite;
 
+}
+@keyframes animateAstro{
+    50% {
+        left: 30px;
+    }
 }
 @keyframes animateUser{
     50%{
         
-        right:10px;
+        right:20px;
                
     }
 }
@@ -1449,7 +1493,7 @@ img#splash {
     position:absolute;
     
 
-    left: 20px;
+    
 }
 
 .section.container{
@@ -1800,7 +1844,7 @@ img#splash {
     line-height: 25px;
 
     font-size: 16px;
-    text-align: center;
+    
     color: var(--text-black-700);
 }
 .service .container{
@@ -1967,11 +2011,9 @@ h2.name1 {
     max-width: 100%;
 
 }
-.contact-form .col-6{
-    flex: 0 0 50%;
+.contact-form .col-6 {
+    flex: 0 0 57%;
     max-width: 50%;
-    
-
 }
 .form-item{
     margin-bottom: 30px;
